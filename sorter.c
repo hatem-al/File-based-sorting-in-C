@@ -56,8 +56,8 @@ void writeIntegers(const char *filename, int *arr, int n) {
 }
 
 int main() {
-    const char *inputFile = "input.txt";
-    const char *outputFile = "output.txt";
+    const char *inputFile = "test/test1.txt";   // Path to the input file you want in the test folder
+    const char *outputFile = "test/output.txt"; // Path to the output file in the test folder
 
     int *arr;
     int size = readIntegers(inputFile, &arr);
